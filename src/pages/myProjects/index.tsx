@@ -1,7 +1,16 @@
+import Nav from '../../components/nav';
+import Footer from '../../components/footer';
+
 export default function myProjects() {
-    return (
-        <>
-        <h1>My Projects</h1>
-        </>
-    );
+  return (
+    <>
+      <Nav />
+      <div className={`basic`}>
+        <main>
+          <h1>Meus Projetos</h1>
+        </main>
+        <Footer />
+      </div>
+    </>
+  );
 }
